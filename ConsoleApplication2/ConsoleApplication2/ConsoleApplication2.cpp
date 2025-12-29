@@ -20,48 +20,48 @@ struct Currency {
 };
 
 void showMenu() {
-    cout << "=== ÎÁÌÅÍÍÎ ÌÅÍÞ 1 ===" << endl;
-    cout << "1. Äîáàâÿíå íà âàëóòè" << endl;
-    cout << "2. Èçâåæäàíå íà âñè÷êè âàëóòè" << endl;
-    cout << "3. Òúðñåíå" << endl;
-    cout << "4. Ïîäðåæäàíå" << endl;
-    cout << "5. Óïðàâëåíèå íà ôàéë" << endl;
-    cout << "6. Äîïúëíèòåëíî ìåíþ 2" << endl;
-    cout << "7. Ïîêóïêî-ïðîäàæáà" << endl;
-    cout << "0. Èçõîä" << endl;
-    cout << "Èçáîð: " << endl;
+    cout << "=== ÃŽÃÃŒÃ…ÃÃÃŽ ÃŒÃ…ÃÃž 1 ===" << endl;
+    cout << "1. Ã„Ã®Ã¡Ã Ã¢Ã¿Ã­Ã¥ Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã¨" << endl;
+    cout << "2. ÃˆÃ§Ã¢Ã¥Ã¦Ã¤Ã Ã­Ã¥ Ã­Ã  Ã¢Ã±Ã¨Ã·ÃªÃ¨ Ã¢Ã Ã«Ã³Ã²Ã¨" << endl;
+    cout << "3. Ã’ÃºÃ°Ã±Ã¥Ã­Ã¥" << endl;
+    cout << "4. ÃÃ®Ã¤Ã°Ã¥Ã¦Ã¤Ã Ã­Ã¥" << endl;
+    cout << "5. Ã“Ã¯Ã°Ã Ã¢Ã«Ã¥Ã­Ã¨Ã¥ Ã­Ã  Ã´Ã Ã©Ã«" << endl;
+    cout << "6. Ã„Ã®Ã¯ÃºÃ«Ã­Ã¨Ã²Ã¥Ã«Ã­Ã® Ã¬Ã¥Ã­Ã¾ 2" << endl;
+    cout << "7. ÃÃ®ÃªÃ³Ã¯ÃªÃ®-Ã¯Ã°Ã®Ã¤Ã Ã¦Ã¡Ã " << endl;
+    cout << "0. ÃˆÃ§ÃµÃ®Ã¤" << endl;
+    cout << "ÃˆÃ§Ã¡Ã®Ã°: " << endl;
 }
 
 void searchAndshowMenu() {
-    cout << "=== Ìåíþ çà òúðñåíå è èçâåæäàíå ===" << endl;
-    cout << "1. Òúðñåíå ïî íàé-íèñêà íàëè÷íîñò" << endl;
-    cout << "2. Òúðñåíå ïî ISO êîä" << endl;
-    cout << "0. Íàçàä" << endl;
+    cout << "=== ÃŒÃ¥Ã­Ã¾ Ã§Ã  Ã²ÃºÃ°Ã±Ã¥Ã­Ã¥ Ã¨ Ã¨Ã§Ã¢Ã¥Ã¦Ã¤Ã Ã­Ã¥ ===" << endl;
+    cout << "1. Ã’ÃºÃ°Ã±Ã¥Ã­Ã¥ Ã¯Ã® Ã­Ã Ã©-Ã­Ã¨Ã±ÃªÃ  Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã²" << endl;
+    cout << "2. Ã’ÃºÃ°Ã±Ã¥Ã­Ã¥ Ã¯Ã® ISO ÃªÃ®Ã¤" << endl;
+    cout << "0. ÃÃ Ã§Ã Ã¤" << endl;
 }
 
 void secondFuncMenu() {
-    cout << "=== ÎÁÌÅÍÍÎ ÌÅÍÞ 2 ===" << endl;
-    cout << "1. Èçâåæäàíå íà âàëóòèòå, êîèòî ñå òúðãóâàò" << endl;
-    cout << "2. Òúðñåíå íà âàëóòè ïî âúâåäåíà îò êëàâèàòóðàòà ñòîéíîñò" << endl;
-    cout << "0. Íàçàä" << endl;;
+    cout << "=== ÃŽÃÃŒÃ…ÃÃÃŽ ÃŒÃ…ÃÃž 2 ===" << endl;
+    cout << "1. ÃˆÃ§Ã¢Ã¥Ã¦Ã¤Ã Ã­Ã¥ Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã¨Ã²Ã¥, ÃªÃ®Ã¨Ã²Ã® Ã±Ã¥ Ã²ÃºÃ°Ã£Ã³Ã¢Ã Ã²" << endl;
+    cout << "2. Ã’ÃºÃ°Ã±Ã¥Ã­Ã¥ Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã¨ Ã¯Ã® Ã¢ÃºÃ¢Ã¥Ã¤Ã¥Ã­Ã  Ã®Ã² ÃªÃ«Ã Ã¢Ã¨Ã Ã²Ã³Ã°Ã Ã²Ã  Ã±Ã²Ã®Ã©Ã­Ã®Ã±Ã²" << endl;
+    cout << "0. ÃÃ Ã§Ã Ã¤" << endl;;
 }
 
 void purchaseSaleMenu() {
-    cout << "=== ÌÅÍÞ ÇÀ ÏÎÊÓÏÊÎ/ÏÐÎÄÀÆÁÀ ===" << endl;
-    cout << "1. Ïîêóïêà íà âàëóòà" << endl;;
-    cout << "2. Ïðîäàæáà íà âàëóòà" << endl;
-    cout << "0. Íàçàä" << endl;
+    cout << "=== ÃŒÃ…ÃÃž Ã‡Ã€ ÃÃŽÃŠÃ“ÃÃŠÃŽ/ÃÃÃŽÃ„Ã€Ã†ÃÃ€ ===" << endl;
+    cout << "1. ÃÃ®ÃªÃ³Ã¯ÃªÃ  Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã " << endl;;
+    cout << "2. ÃÃ°Ã®Ã¤Ã Ã¦Ã¡Ã  Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã " << endl;
+    cout << "0. ÃÃ Ã§Ã Ã¤" << endl;
 }
 
 void printInfoCurr(const Currency& c)
 {
-    cout << "Èìå: " << c.name << " ---- " << endl
-        << "ISO êîä: " << c.isoCode << " ---- " << endl
-        << "Êóðñ ïðîäàâà: " << c.sellRate << " ---- "
-        << "Êóðñ êóïóâà: " << c.buyRate << " ---- " << endl
-        << "Íàëè÷íîñò: " << c.available << " ---- " << endl
-        << "Ìàêñ. ñóìà çà òðàíçàêöèÿ: " << c.maxTransaction << " ---- " << endl
-        << "Òúðãóâà ëè ñå: " << (c.isTraded ? "Äà" : "Íå") << "\n" << endl;
+    cout << "ÃˆÃ¬Ã¥: " << c.name << " ---- " << endl
+        << "ISO ÃªÃ®Ã¤: " << c.isoCode << " ---- " << endl
+        << "ÃŠÃ³Ã°Ã± Ã¯Ã°Ã®Ã¤Ã Ã¢Ã : " << c.sellRate << " ---- "
+        << "ÃŠÃ³Ã°Ã± ÃªÃ³Ã¯Ã³Ã¢Ã : " << c.buyRate << " ---- " << endl
+        << "ÃÃ Ã«Ã¨Ã·Ã­Ã®Ã±Ã²: " << c.available << " ---- " << endl
+        << "ÃŒÃ ÃªÃ±. Ã±Ã³Ã¬Ã  Ã§Ã  Ã²Ã°Ã Ã­Ã§Ã ÃªÃ¶Ã¨Ã¿: " << c.maxTransaction << " ---- " << endl
+        << "Ã’ÃºÃ°Ã£Ã³Ã¢Ã  Ã«Ã¨ Ã±Ã¥: " << (c.isTraded ? "Ã„Ã " : "ÃÃ¥") << "\n" << endl;
 
 }
 
@@ -69,11 +69,11 @@ void addCurrencies(Currency currencies[], unsigned int& currencyCount) {
 
     int newCurrencies;
 
-    cout << "Êîëêî âàëóòè èñêàòå äà äîáàâèòå?" << endl;
+    cout << "ÃŠÃ®Ã«ÃªÃ® Ã¢Ã Ã«Ã³Ã²Ã¨ Ã¨Ã±ÃªÃ Ã²Ã¥ Ã¤Ã  Ã¤Ã®Ã¡Ã Ã¢Ã¨Ã²Ã¥?" << endl;
     cin >> newCurrencies;
 
     if (currencyCount + newCurrencies > MAX_CURRENCIES) {
-        cout << "Íàäâèøàâàòå ìàêñèìàëíèÿ áðîé îò 50 âàëóòè!" << endl;
+        cout << "ÃÃ Ã¤Ã¢Ã¨Ã¸Ã Ã¢Ã Ã²Ã¥ Ã¬Ã ÃªÃ±Ã¨Ã¬Ã Ã«Ã­Ã¨Ã¿ Ã¡Ã°Ã®Ã© Ã®Ã² 50 Ã¢Ã Ã«Ã³Ã²Ã¨!" << endl;
         return;
     }
 
@@ -81,14 +81,14 @@ void addCurrencies(Currency currencies[], unsigned int& currencyCount) {
         Currency c;
         int traded;
 
-        cout << "Âàëóòà #" << currencyCount + 1 << ":" << endl;
-        cout << "Íàèìåíîâàíèå: "; cin >> c.name;
-        cout << "Êîä ïî ISO: "; cin >> c.isoCode;
-        cout << "Êóðñ ïðîäàâà: "; cin >> c.sellRate;
-        cout << "Êóðñ êóïóâà: "; cin >> c.buyRate;
-        cout << "Íàëè÷íîñò: "; cin >> c.available;
-        cout << "Ìàêñ. ñóìà çà òðàíçàêöèÿ: "; cin >> c.maxTransaction;
-        cout << "Òúðãóâà ëè ñå (1=Äà / 0=Íå): "; cin >> traded;
+        cout << "Ã‚Ã Ã«Ã³Ã²Ã  #" << currencyCount + 1 << ":" << endl;
+        cout << "ÃÃ Ã¨Ã¬Ã¥Ã­Ã®Ã¢Ã Ã­Ã¨Ã¥: "; cin >> c.name;
+        cout << "ÃŠÃ®Ã¤ Ã¯Ã® ISO: "; cin >> c.isoCode;
+        cout << "ÃŠÃ³Ã°Ã± Ã¯Ã°Ã®Ã¤Ã Ã¢Ã : "; cin >> c.sellRate;
+        cout << "ÃŠÃ³Ã°Ã± ÃªÃ³Ã¯Ã³Ã¢Ã : "; cin >> c.buyRate;
+        cout << "ÃÃ Ã«Ã¨Ã·Ã­Ã®Ã±Ã²: "; cin >> c.available;
+        cout << "ÃŒÃ ÃªÃ±. Ã±Ã³Ã¬Ã  Ã§Ã  Ã²Ã°Ã Ã­Ã§Ã ÃªÃ¶Ã¨Ã¿: "; cin >> c.maxTransaction;
+        cout << "Ã’ÃºÃ°Ã£Ã³Ã¢Ã  Ã«Ã¨ Ã±Ã¥ (1=Ã„Ã  / 0=ÃÃ¥): "; cin >> traded;
 
         if (traded == 1) {
             c.isTraded = true;
@@ -100,30 +100,30 @@ void addCurrencies(Currency currencies[], unsigned int& currencyCount) {
         currencies[currencyCount] = c;
         currencyCount++;
 
-        cout << "Âàëóòàòà áåøå äîáàâåíà!\n" << endl;
+        cout << "Ã‚Ã Ã«Ã³Ã²Ã Ã²Ã  Ã¡Ã¥Ã¸Ã¥ Ã¤Ã®Ã¡Ã Ã¢Ã¥Ã­Ã !\n" << endl;
     }
 }
 
 void displayCurrencies(const Currency currencies[], const unsigned int count) {
 
     if (count == 0) {
-        cout << "Íÿìà äîáàâåíè âàëóòè." << endl;
+        cout << "ÃÃ¿Ã¬Ã  Ã¤Ã®Ã¡Ã Ã¢Ã¥Ã­Ã¨ Ã¢Ã Ã«Ã³Ã²Ã¨." << endl;
         return;
     }
 
-    cout << "=== Ñïèñúê ñ âàëóòè ===" << endl;
+    cout << "=== Ã‘Ã¯Ã¨Ã±ÃºÃª Ã± Ã¢Ã Ã«Ã³Ã²Ã¨ ===" << endl;
 
     for (int i = 0; i < count; i++) {
         printInfoCurr(currencies[i]);
     }
 
-    cout << "=== Êðàé íà ñïèñúêà ñ âàëóòè ===" << endl;
+    cout << "=== ÃŠÃ°Ã Ã© Ã­Ã  Ã±Ã¯Ã¨Ã±ÃºÃªÃ  Ã± Ã¢Ã Ã«Ã³Ã²Ã¨ ===" << endl;
 }
 
 void findLowestAvailability(const Currency currencies[], const unsigned int count) {
 
     if (count == 0) {
-        cout << "Íÿìà äîáàâåíè âàëóòè.\n";
+        cout << "ÃÃ¿Ã¬Ã  Ã¤Ã®Ã¡Ã Ã¢Ã¥Ã­Ã¨ Ã¢Ã Ã«Ã³Ã²Ã¨.\n";
         return;
     }
 
@@ -147,7 +147,7 @@ int findByISOCurrencyreturn(const Currency currencies[], const unsigned int coun
 void findByISO(const Currency currencies[], const unsigned int count, const string& reqIsoCode) {
 
     if (count == 0) {
-        cout << "Íÿìà äîáàâåíè âàëóòè.\n";
+        cout << "ÃÃ¿Ã¬Ã  Ã¤Ã®Ã¡Ã Ã¢Ã¥Ã­Ã¨ Ã¢Ã Ã«Ã³Ã²Ã¨.\n";
         return;
     }
 
@@ -159,13 +159,13 @@ void findByISO(const Currency currencies[], const unsigned int count, const stri
         return;
     }
 
-    cout << "Íÿìà âàëóòà ñ òîçè ISO êîä.\n";
+    cout << "ÃÃ¿Ã¬Ã  Ã¢Ã Ã«Ã³Ã²Ã  Ã± Ã²Ã®Ã§Ã¨ ISO ÃªÃ®Ã¤.\n";
 }
 
 void sortTheMainArray(Currency currencies[], const unsigned int count) {
 
     if (count == 0) {
-        cout << "Íÿìà äîáàâåíè âàëóòè.\n";
+        cout << "ÃÃ¿Ã¬Ã  Ã¤Ã®Ã¡Ã Ã¢Ã¥Ã­Ã¨ Ã¢Ã Ã«Ã³Ã²Ã¨.\n";
         return;
     }
 
@@ -180,7 +180,7 @@ void sortTheMainArray(Currency currencies[], const unsigned int count) {
         }
     }
 
-    cout << "Âàëóòèòå áÿõà ïîäðåäåíè â íàìàëÿâàù ðåä ñïîðåä ìàðæà.\n" << endl;
+    cout << "Ã‚Ã Ã«Ã³Ã²Ã¨Ã²Ã¥ Ã¡Ã¿ÃµÃ  Ã¯Ã®Ã¤Ã°Ã¥Ã¤Ã¥Ã­Ã¨ Ã¢ Ã­Ã Ã¬Ã Ã«Ã¿Ã¢Ã Ã¹ Ã°Ã¥Ã¤ Ã±Ã¯Ã®Ã°Ã¥Ã¤ Ã¬Ã Ã°Ã¦Ã .\n" << endl;
 }
 
 void saveToFile(const Currency currencies[], const unsigned int count)
@@ -188,7 +188,7 @@ void saveToFile(const Currency currencies[], const unsigned int count)
     ofstream file(FILE_NAME, ios::binary);
 
     if (!file) {
-        cout << "Ãðåøêà ïðè îòâàðÿíå íà ôàéëà çà çàïèñ!\n";
+        cout << "ÃƒÃ°Ã¥Ã¸ÃªÃ  Ã¯Ã°Ã¨ Ã®Ã²Ã¢Ã Ã°Ã¿Ã­Ã¥ Ã­Ã  Ã´Ã Ã©Ã«Ã  Ã§Ã  Ã§Ã Ã¯Ã¨Ã±!\n";
         return;
     }
 
@@ -196,7 +196,7 @@ void saveToFile(const Currency currencies[], const unsigned int count)
     file.write((char*)currencies, sizeof(Currency) * count);
 
     file.close();
-    cout << "Äàííèòå ñà çàïèñàíè âúâ ôàéëà.\n";
+    cout << "Ã„Ã Ã­Ã­Ã¨Ã²Ã¥ Ã±Ã  Ã§Ã Ã¯Ã¨Ã±Ã Ã­Ã¨ Ã¢ÃºÃ¢ Ã´Ã Ã©Ã«Ã .\n";
 }
 
 void loadFromFile(Currency currencies[], unsigned int& count)
@@ -204,7 +204,7 @@ void loadFromFile(Currency currencies[], unsigned int& count)
     ifstream file(FILE_NAME, ios::binary);
 
     if (!file) {
-        cout << "Ôàéëúò íå ñúùåñòâóâà. Ñòàðòèðàíå ñ ïðàçåí ñïèñúê.\n";
+        cout << "Ã”Ã Ã©Ã«ÃºÃ² Ã­Ã¥ Ã±ÃºÃ¹Ã¥Ã±Ã²Ã¢Ã³Ã¢Ã . Ã‘Ã²Ã Ã°Ã²Ã¨Ã°Ã Ã­Ã¥ Ã± Ã¯Ã°Ã Ã§Ã¥Ã­ Ã±Ã¯Ã¨Ã±ÃºÃª.\n";
         count = 0;
         return;
     }
@@ -213,7 +213,7 @@ void loadFromFile(Currency currencies[], unsigned int& count)
     file.read((char*)currencies, sizeof(Currency) * count);
 
     file.close();
-    cout << "Äàííèòå ñà çàðåäåíè îò ôàéëà.\n";
+    cout << "Ã„Ã Ã­Ã­Ã¨Ã²Ã¥ Ã±Ã  Ã§Ã Ã°Ã¥Ã¤Ã¥Ã­Ã¨ Ã®Ã² Ã´Ã Ã©Ã«Ã .\n";
 }
 
 void showTradedSortedByName(Currency currencies[], const unsigned int count) {
@@ -228,7 +228,7 @@ void showTradedSortedByName(Currency currencies[], const unsigned int count) {
 
     if (tCount == 0)
     {
-        cout << "Íÿìà íàëè÷íè âàëóòè!" << endl;
+        cout << "ÃÃ¿Ã¬Ã  Ã­Ã Ã«Ã¨Ã·Ã­Ã¨ Ã¢Ã Ã«Ã³Ã²Ã¨!" << endl;
         return;
     }
 
@@ -262,37 +262,37 @@ void findByAvailabilityAndMargin(const Currency currencies[], const unsigned int
     }
 
     if (!found) {
-        cout << "Íÿìà âàëóòè, êîèòî äà îòãîâàðÿò íà çàäàäåíèòå êðèòåðèè.\n";
+        cout << "ÃÃ¿Ã¬Ã  Ã¢Ã Ã«Ã³Ã²Ã¨, ÃªÃ®Ã¨Ã²Ã® Ã¤Ã  Ã®Ã²Ã£Ã®Ã¢Ã Ã°Ã¿Ã² Ã­Ã  Ã§Ã Ã¤Ã Ã¤Ã¥Ã­Ã¨Ã²Ã¥ ÃªÃ°Ã¨Ã²Ã¥Ã°Ã¨Ã¨.\n";
     }
 }
 
 void buyCurrency(Currency currencies[], const unsigned int count) {
     string iso;
-    cout << "Âúâåäåòå ISO êîä íà âàëóòàòà çà ïîêóïêà: " << endl;
+    cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ ISO ÃªÃ®Ã¤ Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã Ã²Ã  Ã§Ã  Ã¯Ã®ÃªÃ³Ã¯ÃªÃ : " << endl;
     cin >> iso;
 
     int idx = findByISOCurrencyreturn(currencies, count, iso);
 
     if (idx == -1) {
-        cout << "Îáìåííîòî áþðî íå ðàáîòè ñ ïîäîáíà âàëóòà." << endl;
+        cout << "ÃŽÃ¡Ã¬Ã¥Ã­Ã­Ã®Ã²Ã® Ã¡Ã¾Ã°Ã® Ã­Ã¥ Ã°Ã Ã¡Ã®Ã²Ã¨ Ã± Ã¯Ã®Ã¤Ã®Ã¡Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã ." << endl;
         return;
     }
 
     Currency& c = currencies[idx];
 
     if (!c.isTraded) {
-        cout << "Âàëóòàòà íå ñå òúðãóâà." << endl;
+        cout << "Ã‚Ã Ã«Ã³Ã²Ã Ã²Ã  Ã­Ã¥ Ã±Ã¥ Ã²ÃºÃ°Ã£Ã³Ã¢Ã ." << endl;
         return;
     }
 
     double amount;
-    cout << "Âúâåäåòå ñóìàòà, êîÿòî èñêàòå äà çàêóïèòå: " << endl;
+    cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã±Ã³Ã¬Ã Ã²Ã , ÃªÃ®Ã¿Ã²Ã® Ã¨Ã±ÃªÃ Ã²Ã¥ Ã¤Ã  Ã§Ã ÃªÃ³Ã¯Ã¨Ã²Ã¥: " << endl;
     cin >> amount;
 
     int idxBGN = findByISOCurrencyreturn(currencies, count, "BGN");
 
     if (idxBGN == -1) {
-        cout << "Ãðåøêà: íÿìà BGN âàëóòà â ñèñòåìàòà." << endl;
+        cout << "ÃƒÃ°Ã¥Ã¸ÃªÃ : Ã­Ã¿Ã¬Ã  BGN Ã¢Ã Ã«Ã³Ã²Ã  Ã¢ Ã±Ã¨Ã±Ã²Ã¥Ã¬Ã Ã²Ã ." << endl;
         return;
     }
 
@@ -301,36 +301,36 @@ void buyCurrency(Currency currencies[], const unsigned int count) {
     double requiredBGN = amount * c.sellRate;
 
     if (amount > c.maxTransaction || amount > c.available || bgn.available < requiredBGN) {
-        cout << "Íå ìîæå äà áúäå èçïúëíåíî! ";
-        cout << "Íàäâèøàâàòå ëèìèòà, íàëè÷íîñòòà íà âàëóòàòà èëè íàëè÷íîñòòà íà BGN.\n";
-        cout << "Èñêàòå ëè äà çàêóïèòå ïî-ìàëêî êîëè÷åñòâî? (1=Äà / 0=Íå): ";
+        cout << "ÃÃ¥ Ã¬Ã®Ã¦Ã¥ Ã¤Ã  Ã¡ÃºÃ¤Ã¥ Ã¨Ã§Ã¯ÃºÃ«Ã­Ã¥Ã­Ã®! ";
+        cout << "ÃÃ Ã¤Ã¢Ã¨Ã¸Ã Ã¢Ã Ã²Ã¥ Ã«Ã¨Ã¬Ã¨Ã²Ã , Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã²Ã²Ã  Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã Ã²Ã  Ã¨Ã«Ã¨ Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã²Ã²Ã  Ã­Ã  BGN.\n";
+        cout << "ÃˆÃ±ÃªÃ Ã²Ã¥ Ã«Ã¨ Ã¤Ã  Ã§Ã ÃªÃ³Ã¯Ã¨Ã²Ã¥ Ã¯Ã®-Ã¬Ã Ã«ÃªÃ® ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã®? (1=Ã„Ã  / 0=ÃÃ¥): ";
 
         int choice;
         cin >> choice;
 
         if (choice == 1) {
-            cout << "Âúâåäåòå íîâî êîëè÷åñòâî: ";
+            cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã­Ã®Ã¢Ã® ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã®: ";
             cin >> amount;
 
             requiredBGN = amount * c.sellRate;
 
             if (amount > c.available) {
-                cout << "Íîâîòî êîëè÷åñòâî (" << amount
-                    << ") âñå îùå å ïî-ãîëÿìî îò íàëè÷íîñòòà íà âàëóòàòà ("
+                cout << "ÃÃ®Ã¢Ã®Ã²Ã® ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® (" << amount
+                    << ") Ã¢Ã±Ã¥ Ã®Ã¹Ã¥ Ã¥ Ã¯Ã®-Ã£Ã®Ã«Ã¿Ã¬Ã® Ã®Ã² Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã²Ã²Ã  Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã Ã²Ã  ("
                     << c.available << ")." << endl;
                 return;
             }
 
             if (amount > c.maxTransaction) {
-                cout << "Íîâîòî êîëè÷åñòâî (" << amount
-                    << ") âñå îùå íàäâèøàâà ìàêñèìàëíàòà ñòîéíîñò çà òðàíçàêöèÿ ("
+                cout << "ÃÃ®Ã¢Ã®Ã²Ã® ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® (" << amount
+                    << ") Ã¢Ã±Ã¥ Ã®Ã¹Ã¥ Ã­Ã Ã¤Ã¢Ã¨Ã¸Ã Ã¢Ã  Ã¬Ã ÃªÃ±Ã¨Ã¬Ã Ã«Ã­Ã Ã²Ã  Ã±Ã²Ã®Ã©Ã­Ã®Ã±Ã² Ã§Ã  Ã²Ã°Ã Ã­Ã§Ã ÃªÃ¶Ã¨Ã¿ ("
                     << c.maxTransaction << ")." << endl;
                 return;
             }
 
             if (requiredBGN > bgn.available) {
-                cout << "Çà ïîêóïêàòà ñà íóæíè " << requiredBGN
-                    << " BGN, íî îáìåííîòî áþðî èìà ñàìî "
+                cout << "Ã‡Ã  Ã¯Ã®ÃªÃ³Ã¯ÃªÃ Ã²Ã  Ã±Ã  Ã­Ã³Ã¦Ã­Ã¨ " << requiredBGN
+                    << " BGN, Ã­Ã® Ã®Ã¡Ã¬Ã¥Ã­Ã­Ã®Ã²Ã® Ã¡Ã¾Ã°Ã® Ã¨Ã¬Ã  Ã±Ã Ã¬Ã® "
                     << bgn.available << " BGN." << endl;
                 return;
             }
@@ -345,34 +345,34 @@ void buyCurrency(Currency currencies[], const unsigned int count) {
 
     bgn.available -= requiredBGN;
 
-    cout << "Óñïåøíà ïîêóïêà!" << endl;
+    cout << "Ã“Ã±Ã¯Ã¥Ã¸Ã­Ã  Ã¯Ã®ÃªÃ³Ã¯ÃªÃ !" << endl;
 }
 
 void sellCurrency(Currency currencies[], const unsigned int count) {
     string iso;
-    cout << "Âúâåäåòå ISO êîä íà âàëóòàòà çà ïðîäàæáà: " << endl;
+    cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ ISO ÃªÃ®Ã¤ Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã Ã²Ã  Ã§Ã  Ã¯Ã°Ã®Ã¤Ã Ã¦Ã¡Ã : " << endl;
     cin >> iso;
 
     int idx = findByISOCurrencyreturn(currencies, count, iso);
 
     if (idx == -1) {
-        cout << "Îáìåííîòî áþðî íå ðàáîòè ñ ïîäîáíà âàëóòà." << endl;
+        cout << "ÃŽÃ¡Ã¬Ã¥Ã­Ã­Ã®Ã²Ã® Ã¡Ã¾Ã°Ã® Ã­Ã¥ Ã°Ã Ã¡Ã®Ã²Ã¨ Ã± Ã¯Ã®Ã¤Ã®Ã¡Ã­Ã  Ã¢Ã Ã«Ã³Ã²Ã ." << endl;
         return;
     }
 
     Currency& c = currencies[idx];
 
     if (!c.isTraded) {
-        cout << "Âàëóòàòà íå ñå òúðãóâà." << endl;
+        cout << "Ã‚Ã Ã«Ã³Ã²Ã Ã²Ã  Ã­Ã¥ Ã±Ã¥ Ã²ÃºÃ°Ã£Ã³Ã¢Ã ." << endl;
         return;
     }
 
     double amount;
-    cout << "Âúâåäåòå ñóìàòà, êîÿòî èñêàòå äà ïðîäàäåòå: " << endl;
+    cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã±Ã³Ã¬Ã Ã²Ã , ÃªÃ®Ã¿Ã²Ã® Ã¨Ã±ÃªÃ Ã²Ã¥ Ã¤Ã  Ã¯Ã°Ã®Ã¤Ã Ã¤Ã¥Ã²Ã¥: " << endl;
     cin >> amount;
 
     if (amount > c.maxTransaction) {
-        cout << "Ñóìàòà å íàä ìàêñèìàëíàòà çà òðàíçàêöèÿ." << endl;
+        cout << "Ã‘Ã³Ã¬Ã Ã²Ã  Ã¥ Ã­Ã Ã¤ Ã¬Ã ÃªÃ±Ã¨Ã¬Ã Ã«Ã­Ã Ã²Ã  Ã§Ã  Ã²Ã°Ã Ã­Ã§Ã ÃªÃ¶Ã¨Ã¿." << endl;
         return;
     }
 
@@ -380,19 +380,19 @@ void sellCurrency(Currency currencies[], const unsigned int count) {
     int idxBGN = findByISOCurrencyreturn(currencies, count, "BGN");
 
     if (idxBGN == -1) {
-        cout << "Ãðåøêà: íÿìà BGN âàëóòà â ñèñòåìàòà.\n";
+        cout << "ÃƒÃ°Ã¥Ã¸ÃªÃ : Ã­Ã¿Ã¬Ã  BGN Ã¢Ã Ã«Ã³Ã²Ã  Ã¢ Ã±Ã¨Ã±Ã²Ã¥Ã¬Ã Ã²Ã .\n";
         return;
     }
 
     if (currencies[idxBGN].available < neededBGN) {
-        cout << "Íÿìà äîñòàòú÷íî íàëè÷íîñò îò BGN.\n";
+        cout << "ÃÃ¿Ã¬Ã  Ã¤Ã®Ã±Ã²Ã Ã²ÃºÃ·Ã­Ã® Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã² Ã®Ã² BGN.\n";
         return;
     }
 
     currencies[idxBGN].available -= neededBGN;
     c.available += amount;
 
-    cout << "Óñïåøíà ïðîäàæáà!" << endl;
+    cout << "Ã“Ã±Ã¯Ã¥Ã¸Ã­Ã  Ã¯Ã°Ã®Ã¤Ã Ã¦Ã¡Ã !" << endl;
 }
 
 int main()
@@ -407,7 +407,7 @@ int main()
 
     unsigned int funcNum;
 
-    cout << "Âúâåäè ôóíêöèÿ: " << endl;
+    cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¨ Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿: " << endl;
     showMenu();
 
     cin >> funcNum;
@@ -436,7 +436,7 @@ int main()
                 break;
 
             case 2:
-                cout << "Âúâåäåòå ISO êîä: ";
+                cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ ISO ÃªÃ®Ã¤: ";
                 cin >> reqIso;
                 findByISO(currencies, currencyCount, reqIso);
 
@@ -455,7 +455,7 @@ int main()
         case 5:
         {
             int f;
-            cout << "1. Çàïèñ\n2. Çàðåæäàíå\n";
+            cout << "1. Ã‡Ã Ã¯Ã¨Ã±\n2. Ã‡Ã Ã°Ã¥Ã¦Ã¤Ã Ã­Ã¥\n";
             cin >> f;
             if (f == 1) saveToFile(currencies, currencyCount);
             else if (f == 2) loadFromFile(currencies, currencyCount);
@@ -465,7 +465,7 @@ int main()
 
         case 6:
         {
-            cout << "Âèå äîñòèãíàõòå âòîðîòî ìåíþ." << endl;
+            cout << "Ã‚Ã¨Ã¥ Ã¤Ã®Ã±Ã²Ã¨Ã£Ã­Ã ÃµÃ²Ã¥ Ã¢Ã²Ã®Ã°Ã®Ã²Ã® Ã¬Ã¥Ã­Ã¾." << endl;
             secondFuncMenu();
 
             int secondFuncChoice;
@@ -482,10 +482,10 @@ int main()
             case 2: {
                 double searchedAvailable, MarginPercent;
 
-                cout << "Âúâåäåòå ìèíèìàëíà íàëè÷íîñò: ";
+                cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã¬Ã¨Ã­Ã¨Ã¬Ã Ã«Ã­Ã  Ã­Ã Ã«Ã¨Ã·Ã­Ã®Ã±Ã²: ";
                 cin >> searchedAvailable;
 
-                cout << "Âúâåäåòå ìàêñèìàëåí ìàðæ (â ïðîöåíòè): ";
+                cout << "Ã‚ÃºÃ¢Ã¥Ã¤Ã¥Ã²Ã¥ Ã¬Ã ÃªÃ±Ã¨Ã¬Ã Ã«Ã¥Ã­ Ã¬Ã Ã°Ã¦ (Ã¢ Ã¯Ã°Ã®Ã¶Ã¥Ã­Ã²Ã¨): ";
                 cin >> MarginPercent;
 
                 findByAvailabilityAndMargin(
@@ -501,7 +501,7 @@ int main()
                 break;
 
             default:
-                cout << "Íåâàëèäíà ôóíêöèÿ!" << endl;
+                cout << "ÃÃ¥Ã¢Ã Ã«Ã¨Ã¤Ã­Ã  Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿!" << endl;
             }
 
             break;
@@ -527,14 +527,14 @@ int main()
                 
                 break;
 
-            default: cout << "Íåâàëèäíà ôóíêöèÿ!" << endl;
+            default: cout << "ÃÃ¥Ã¢Ã Ã«Ã¨Ã¤Ã­Ã  Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿!" << endl;
             }
             break;
         }
 
-        case 0: cout << "Èçõîä" << endl; break;
+        case 0: cout << "ÃˆÃ§ÃµÃ®Ã¤" << endl; break;
 
-        default: cout << "Íåâàëèäíà ôóíêöèÿ!" << endl;
+        default: cout << "ÃÃ¥Ã¢Ã Ã«Ã¨Ã¤Ã­Ã  Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¿!" << endl;
         }
 
         showMenu();
